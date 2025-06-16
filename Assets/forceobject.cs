@@ -4,8 +4,8 @@ public class PushableObject : MonoBehaviour
 {
     public float pushForce = 100f;
     public Vector2 pushDirection = new Vector2(1, 1);
-    public float gravityReduceRate = 1f; // Units per second
-    public float minGravityScale = 0.1f; // Lowest it can go
+    public float gravityReduceRate = 1f; 
+    public float minGravityScale = 0.1f;
 
     private Rigidbody2D rb;
     private bool isPushed = false;
