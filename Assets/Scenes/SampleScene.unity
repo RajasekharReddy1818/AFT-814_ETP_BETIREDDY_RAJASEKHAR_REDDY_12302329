@@ -323,7 +323,7 @@ MonoBehaviour:
   groundlayer:
     serializedVersion: 2
     m_Bits: 8
-  dashSpeed: 100
+  dashSpeed: 30
   dashTime: 0.1
   dashCooldown: 0.3
   deathUI: {fileID: 0}
@@ -788,7 +788,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.85
+  m_Mass: 0.62
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 1
@@ -882,8 +882,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3efd08fff4e4f24d923c710e904f884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 50
-  pushDirection: {x: 5, y: 1}
+  pushForce: 200
+  pushDirection: {x: 1, y: 1}
+  gravityReduceRate: 3
+  minGravityScale: 0.3
 --- !u!1 &997421918
 GameObject:
   m_ObjectHideFlags: 0
